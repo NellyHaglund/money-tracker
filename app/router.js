@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('index', { path: '/' });
+  this.route('add-entry-form');
 });
 
 export default Router;
